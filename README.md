@@ -1,11 +1,11 @@
-| Table of  "```"   | Table of "~~~"	| 
-| ------------------|:-----------------:|
-| ```ruby           | ~~~ruby           |
-|#!/usr/bin/env ruby|#!/usr/bin/env ruby|
-|                   |					|
-|puts "Hello World!"|puts "Hello World!"|
-|puts 42**42        |puts 42**42 		|
-|```                |~~~ 				|
+| Table of  "```"         | Table of "~~~"			| 
+| ------------------------|:-----------------------:|
+| ```ruby```              | ~~~ruby~~~        		|
+|```#!/usr/bin/env ruby```|~~~#!/usr/bin/env ruby~~~|
+|                         |				   			|
+|```puts "Hello World!"```|~~~puts "Hello World!"~~~|
+|```puts 42**42```        |~~~puts 42**42~~~ 	   	|
+
 
 
 
