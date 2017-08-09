@@ -1,10 +1,10 @@
-With "_" symbols
+* With "_" symbols
 
 _Day1_
 __something__
 ___day1___
 
-With "*" symbols
+- With "*" symbols
 
 *something*
 **newbranch**
@@ -16,8 +16,10 @@ With "#" symbols
 ## something
 ### otherstring
 
-Combinations of symbols
++ Combinations of symbols
 
 # _Ruby-Tasks_
-***# something***
+
+***~~something~~***
+
 __*otherstring*__
