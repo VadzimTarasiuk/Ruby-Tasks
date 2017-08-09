@@ -6,6 +6,7 @@ puts 42**42
 ```
 
 #!/usr/bin/env ruby
+
 def get_sum(a,b)
     # Good Luck!
     # get_sum(1, 0) == 1   # 1 + 0 = 1
