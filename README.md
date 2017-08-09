@@ -1,3 +1,11 @@
+```ruby
+#!/usr/bin/env ruby
+
+puts "Hello World!"
+puts 42**42
+```
+
+
 * With "_" symbols
 
 _Day1_
