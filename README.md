@@ -6,7 +6,18 @@
 |```puts "Hello World!"```|~~~puts "Hello World!"~~~|
 |```puts 42**42```        |~~~puts 42**42~~~ 	   	|
 
+### Some code here:
 
+```python
+def post(request):
+    headers = {'content-type': 'application/json'}
+    return requests.post(
+        "http://" + zabbix_ip + "/api_jsonrpc.php",
+         data=json.dumps(request),
+         headers=headers,
+         auth=HTTPBasicAuth(zabbix_api_admin_name, zabbix_api_admin_password)
+    )
+```
 
 
 [actualrubyscript](codewars2.rb)
