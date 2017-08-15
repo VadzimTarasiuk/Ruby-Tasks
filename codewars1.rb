@@ -1,25 +1,34 @@
 #!/usr/bin/env ruby
 
-def get_sum(a,b)
-    # Good Luck!
-    # get_sum(1, 0) == 1   # 1 + 0 = 1
-	# get_sum(1, 2) == 3   # 1 + 2 = 3
-	# get_sum(0, 1) == 1   # 0 + 1 = 1
-	# get_sum(1, 1) == 1   # 1 Since both are same
-	# get_sum(-1, 0) == -1 # -1 + 0 = -1
-	# get_sum(-1, 2) == 2  # -1 + 0 + 1 + 2 = 2
-	if a == b
-	  	return a
-	elsif a > b
-		c = [b, a]
-	else
-		c = [a, b]
+class Animal
+	@@cats = 0
+	@@dogs = 0
+	def self.all_animals
+		@@cats + @@dogs
 	end
-	sum = 0
-	for i in c[0]..c[1]
-		sum += i
+	def self.cats
+		@@cats
 	end
-	return sum
+	def self.dogs
+		@@dogs
+	end
 end
 
-get_sum(-1, 2)
+class Cat < Animal
+	def initialize (text)
+		@@cats += 1
+	end
+end
+class Dog < Animal
+	def initialize (text)
+		@@dogs += 1
+	end
+end
+
+cat = Cat.new("barsik")
+cat2 = Cat.new("murzik")
+dog = Dog.new("tuzik")
+
+Animal.all_animals
+Animal.cats
+Animal.dogs
