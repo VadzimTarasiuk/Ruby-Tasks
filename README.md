@@ -32,6 +32,7 @@ ___day1___
 
 [TOC]
 - With "*" symbols
+
 ==================
 
 *something*
